@@ -1,12 +1,15 @@
 package com.sk.thread;
 
+import java.util.Collections;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 public class BlockingQueueTest
 {
+	
 	public static void main(String[] args)
 	{
+		//Collections.synchronizedMap(null);
 		BlockingQueue<Integer> queue=new ArrayBlockingQueue<Integer>(3);
 		for(int i=0;i<2;i++)
 		{
